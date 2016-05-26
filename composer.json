@@ -1,0 +1,19 @@
+{
+  "name" : "weixia/ali-php-open-sdk",
+  "version" : "v0.0.1",
+  "license": "MIT",
+  "type": "library",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  }],
+  "authors": [{
+    "name": "xiawei",
+    "email": "398062080@qq.com"
+  }],
+  "autoload": {
+     "psr-4": { 
+       "ali-php-open-sdk\\": "src/"
+     }
+  }
+}
