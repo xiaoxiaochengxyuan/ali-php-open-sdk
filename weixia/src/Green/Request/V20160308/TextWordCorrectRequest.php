@@ -17,10 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Green\Request\V20160308;
+namespace Aliyun\Green\Request\V20160308;
+use Aliyun\Core\RpcAcsRequest;
 
-class TextWordCorrectRequest extends \RpcAcsRequest
-{
+class TextWordCorrectRequest extends RpcAcsRequest {
 	function  __construct()
 	{
 		parent::__construct("Green", "2016-03-08", "TextWordCorrect");

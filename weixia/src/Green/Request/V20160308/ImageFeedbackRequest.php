@@ -17,9 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Green\Request\V20160308;
+namespace Aliyun\Green\Request\V20160308;
+use Aliyun\Core\RpcAcsRequest;
 
-class ImageFeedbackRequest extends \RpcAcsRequest
+class ImageFeedbackRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{
