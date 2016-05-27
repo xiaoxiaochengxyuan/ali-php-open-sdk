@@ -95,6 +95,7 @@ class EndpointProvider
             new ProductDomain("Location", "location.aliyuncs.com"),
             new ProductDomain("Ubsms", "ubsms.aliyuncs.com"),
             new ProductDomain("Ubsms-inner", "ubsms-inner.aliyuncs.com"),
+            new ProductDomain('Green', 'green.aliyuncs.com')
             );
         $endpoint = new Endpoint("cn-hangzhou", $regionIds, $productDomains);
         $endpoints = array($endpoint);
