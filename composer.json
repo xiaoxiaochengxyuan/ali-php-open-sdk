@@ -1,6 +1,6 @@
 {
   "name" : "weixia/ali-php-open-sdk",
-  "version" : "v0.0.1",
+  "version" : "0.1",
   "license": "MIT",
   "type": "library",
   "repositories" : [ {
